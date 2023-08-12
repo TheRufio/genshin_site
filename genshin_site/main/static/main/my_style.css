@@ -1,8 +1,8 @@
 body {
-    background-color: red;
+    background-color: rgb(201, 121, 121);
 }
 
 h1 {
     font-size: 40px;
-    color: blue;
+    color: rgb(24, 24, 112);
 }
