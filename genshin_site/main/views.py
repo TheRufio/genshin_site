@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from .models import Characters
 
 def main(request):
-    return render(request,'main/home.html')
+    hero = Characters.objects.all()
+    return render(request,'main/home.html', {'hero' : hero})
